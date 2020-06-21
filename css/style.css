@@ -1,0 +1,68 @@
+/*
+    Theme Name:EliteCorp
+    Theme Coder: Abanoub Zaky
+    FirstColor: #08526D
+    SecondColor: #ED1D24
+/*
+/*Start Upper Navbar*/
+.upper-navbar{
+    background-color:#08526D;
+    padding: 10px;
+    color: #f2f2f2;
+}
+
+.upper-navbar .firstUpper span{
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+    color: #ddd;
+}
+.upper-navbar .firstUpper em{
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.upper-navbar .secondUpper span{
+    margin-right: 15px;
+    margin-left: 10px;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.upper-navbar .secondUpper button{
+    padding: 1px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #ed1d24;
+    color: #fff;
+}
+/*End Upper Navbar*/
+/*Start Navbar*/
+nav span{
+    font-size: 40px;
+    padding: 10px 0;
+}
+nav span:first-of-type{
+    color: #08526D;
+    font-weight: 600;
+}
+nav span:last-of-type{
+    color:#ED1D24;
+    font-weight: lighter;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #08526D;
+    font-size: 15px;
+    font-weight:700;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ed1d24;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+    color: #f70e15;
+}
+/*End Navbar*/
