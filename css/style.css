@@ -66,3 +66,12 @@ nav span:last-of-type{
     color: #f70e15;
 }
 /*End Navbar*/
+/*Start Slider*/
+.slider{
+    background-color: #666;
+}
+.slider img{
+    object-fit: cover;
+    opacity: 0.5
+}
+/*End Slider*/
