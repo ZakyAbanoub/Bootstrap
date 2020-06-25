@@ -193,6 +193,14 @@ nav span:last-of-type{
     height: 180px;
     object-fit: cover;
 }
+@media(max-width: 575px){
+    .latest-post .lead{
+        width: 100%;
+    }
+    .latest-post .card{
+        margin-left: 65px;
+    }
+}
 /*End Latest Post*/
 /*Start Testimonials*/
 .testiomonials-div{
@@ -286,9 +294,12 @@ nav span:last-of-type{
     transform: translateY(-20px);
     box-shadow: 5px 10px 10px 10px #ddd;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 900px){
     .pricing-table .lead{
         width: 100%;
+    }
+    .pricing-table .card{
+        margin-left: 30px;
     }
 }
 /*End Pricing Table*/
