@@ -201,8 +201,7 @@ nav span:last-of-type{
     .latest-post .card{
         /* margin-left: 60px !important; */
         margin-bottom: 40px;
-        margin-left: 0;
-        margin-right: 0;
+
     }
 }
 /*End Latest Post*/
