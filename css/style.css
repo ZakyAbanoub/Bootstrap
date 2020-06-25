@@ -198,7 +198,7 @@ nav span:last-of-type{
         width: 100%;
     }
     .latest-post .card{
-        margin-left: 65px;
+        margin-left: 60px;
     }
 }
 /*End Latest Post*/
@@ -294,12 +294,12 @@ nav span:last-of-type{
     transform: translateY(-20px);
     box-shadow: 5px 10px 10px 10px #ddd;
 }
-@media (max-width: 900px){
+@media (max-width: 575px){
     .pricing-table .lead{
         width: 100%;
     }
     .pricing-table .card{
-        margin-left: 30px;
+        margin-left: 20px;
     }
 }
 /*End Pricing Table*/
